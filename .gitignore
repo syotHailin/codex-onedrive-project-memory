@@ -1,0 +1,22 @@
+# Local installations, identities, credentials and shared knowledge
+.codex/
+Codex-Shared-Memory/
+shared-memory/
+projects/
+.env
+.env.*
+auth.json
+credentials.json
+*.pem
+*.key
+# Isolated test fixtures and generated reports
+tests/verification-*/
+tests/launcher-check-*/
+tests/setup-check-*/
+tests/verification-report.json
+__pycache__/
+*.pyc
+.venv/
+*.zip
+Thumbs.db
+.DS_Store
